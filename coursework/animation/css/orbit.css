@@ -1,0 +1,80 @@
+html {
+    background-color: #000;
+    
+}
+
+#scale {
+    zoom: 50%;
+    -moz-transform: scale(50%);
+}
+
+.sun {
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    
+
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    
+    border-radius: 50%;
+    
+    /*box-shadow: rgb(204, 153, 0) 0px 0px 50px 0px;*/
+}
+
+.earth {
+    height: 25px;
+    width: 25px;
+    
+    border-radius: 50%;
+    box-shadow: green 0 0 32px;
+}
+
+.earth-orbit {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    
+    margin-left: -250px;
+    margin-top: -250px;
+    
+    /*
+    border-radius: 50%;
+    border: 1px dotted gray;
+    */
+    
+    -webkit-animation: spin-right 30s linear infinite;
+}
+
+.moon {
+    height: 10px;
+    width: 10px;
+}
+
+.moon-orbit {
+    top: 50%;
+    left: 50%;
+
+    height: 50px;
+    width: 50px;
+
+    margin-left: -12.5px;
+    margin-bottom: -37px;
+    
+    border: 1px solid rgba(255, 0, 0, 0.1);
+    border-radius: 50%;
+    
+    -webkit-animation: spin-right 5s linear infinite;
+}
+
+
+@-webkit-keyframes spin-right {
+    100% {
+        -webkit-transform: rotate(360deg);
+        -weblit-transform: scale(50%,50%);
+    }
+}
