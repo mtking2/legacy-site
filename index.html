@@ -31,10 +31,18 @@
                 padding-top: 5px;
                 padding-left: 5px;
             }
+            .navbar {
+                background: rgba(245, 245, 245, 0.1);
+            }
+            .well, .well-sm {
+                background: rgba(245, 245, 245, 0.2);
+            }
+
         </style>
     </head>
 
-    <body>
+    <body style= "background: url(images/Roan.jpg) no-repeat;
+    background-size: cover;">
         <!--
         <h1>Michael King</h1>
         <p>This is the default web page for this server.</p>
@@ -76,8 +84,9 @@
                         style="height:300px; margin-left:0px" alt="MK Photo">
                     </div>
                     <br>
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-2 well">
+                    <div class="col-sm-3"></div>
+                    <div class="col-sm-2">
+                        <div class="well well-sm">
                         <ul class="list-unstyled">
                             <li><abbr title="Address"><i class="glyphicon
                             glyphicon-map-marker"></i></abbr> 258 Belk Bldg.
@@ -105,6 +114,7 @@
                             width: 20px; padding-top: 10px;"></i></abbr></a>
                             </li>
                         </ul>
+                        </div>
                     </div>
                  </div><!-- end row-fluid -->
 
@@ -117,28 +127,33 @@
                         B.S. in Electrical & Computer Engineering Technology</a></h4>
                         <h4><a href="http://agora.cs.wcu.edu" target="_blank">B.S. in Computer Science</a></h4>
                         <h4><a href="http://agora.cs.wcu.edu" target="_blank">Minor in Mathematics</a></h4>
+                        <hr>
                     </div>
                     <div class="col-sm-2"></div>
                  </div><!-- end row-fluid -->
 
                  <div class="row">
                     <div class="col-sm-2"></div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-8 well-sm">
                         <!-- <h4 class="page-header"></h4> -->
-                        <hr>
-                        <a class="twitter-timeline" width="100%" href="https://twitter.com/thaadjarvis" data-widget-id="641288357016936448">Tweets by @thaadjarvis</a>
+                        <a class="twitter-timeline" width="100%"  href="https://twitter.com/thaadjarvis" data-widget-id="641288357016936448" data-chrome=" nofooter transparent">Tweets by @thaadjarvis</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
                         if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";
                         fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                     </div>
                     <div class="col-sm-2"></div>
-             </div><!-- end row-fluid -->
+                </div><!-- end row-fluid -->
+                <div class="row" style="text-align: left">
+                   <div class="col-sm-2"></div>
+                   <div class="col-sm-8"><hr></div>
+                   <div class="col-sm-2"></div>
+                </div>
 
             </div><!-- /.container-fluid -->
         </div> <!-- end jumbotron -->
 
-        <div style="position: relative; bottom: 0; width:100%; text-align: center">
-            <hr>
+
+        <div style="position: relative; bottom: 0; width:100%; text-align: center; color:white;">
             <p>
                 <a href="http://validator.w3.org/check/referer"
                 title="Validate HTML5"><img src="images/valid-html51.png"
@@ -150,6 +165,7 @@
             </p>
             <script> document.write("Last modified on: " + document.lastModified +"");</script>
         </div>
+
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
