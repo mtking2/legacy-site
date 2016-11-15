@@ -1,0 +1,59 @@
+abbr[title] {
+    border-bottom: none !important;
+    cursor: inherit !important;
+    text-decoration: none !important;
+}
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 45px;
+    height: 55px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+.navbar-default .navbar-nav > li > a {
+    /*color: #dcdcdc;*/
+}
+.navbar-default .navbar-nav > li > a:hover {
+    font-size: 20px;
+}
+.navbar-default .navbar-nav > .active a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    font-size: 20px;
+    color: #333333;
+    background: #d0d0d0;
+}
+.navbar {
+    /*background: #353535;*/
+    /*border: 0 !important;*/
+    border-color: #d0d0d0;
+}
+.collapse, .navbar-collapse {
+    text-align: center;
+    vertical-align: middle;
+}
+.well, .well-sm {
+    /*background: #353535;*/
+    /*border: 0 !important;*/
+}
+.alert {
+    color: #333333;
+    background: #f8f8f8
+}
+.page-header, hr {
+    border-color: #bbbbbb;
+}
+body {
+  /*background: url(images/Roan.jpg) no-repeat center center fixed;*/
+  /*color: #dcdcdc;*/
+  background-color: #d0d0d0;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+code {
+    background: #e0e0e0;
+    color: #333333;
+}
